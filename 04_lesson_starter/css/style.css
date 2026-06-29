@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+h1 {
+    border: 2px dashed red;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+
+/*rem is a relative unit of measurement that is based on the font size of the root element (usually the <html> element). 1rem is equal to the font size of the root element. For example, if the font size of the root element is 16px, then 1rem is equal to 16px. Using rem units allows for more flexible and scalable designs, as they can adapt to changes in the root font size.*/
+main {
+    font-size: 2rem;
+}
+
+/*em is a relative unit of measurement that is based on the font size of the parent element. 1em is equal to the font size of the parent element. For example, if the font size of the parent element is 16px, then 1em is equal to 16px. Using em units allows for more flexible and scalable designs, as they can adapt to changes in the parent font size.*/
+p {
+    font-size: 2rem;
+    width: 40ch;
+}
