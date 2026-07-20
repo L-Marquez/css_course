@@ -105,4 +105,5 @@ a:visited {
   top: 30%;
   left: 0;
   z-index: 1;
+  cursor: pointer;
 }
